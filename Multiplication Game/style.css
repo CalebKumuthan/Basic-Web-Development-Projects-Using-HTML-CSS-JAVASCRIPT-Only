@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0,.3);
+    border-radius: 4px;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    /* if the margin is not same in left and right use border box */
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid green;
+    color: green;
+}
+
+.input::placeholder{
+    color: lightgrey;
+    font-family: cursive;
+}
+
+.button{
+    width: 100%;
+    font-family: cursive;
+    border: none;
+    background-color: green;
+    margin: 20px 0;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    border-radius: 4px;
+}
+
+.button:hover{
+    filter: brightness(.9);
+    cursor: pointer;
+}
+
+.score{
+    text-align: right;
+    color: green;
+}
